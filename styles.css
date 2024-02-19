@@ -1,0 +1,400 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #e6e8e9;
+    position: relative;
+}
+
+.navbar {
+    background-color: #4d8afa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.listitem {
+    display: inline;
+    margin-left: 40px;
+}
+
+#search {
+    width: 600px;
+    height: 33px;
+}
+
+#button {
+    width: 100px;
+    height: 27px;
+    border: none;
+}
+
+#button:hover {
+    color: #e80510;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.link:hover {
+    color: #9d9fa3;
+}
+
+
+.type {
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    height: 105px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+/* .grocery{
+    padding-right: 15px;
+    justify-content: center;
+}
+.mobile{
+    padding-left: 15px;
+}
+.fashion{
+    padding-left: 15px;
+}
+.electronics{
+    padding-left: 15px;
+}
+.furniture{
+    padding-left: 15px;
+}
+.appliance{
+    padding-left: 15px;
+}
+.travel{
+    padding-left: 15px;
+}
+.toy{
+    padding-left: 15px;
+}
+.twowheeler{
+    padding-left: 15px;
+} */
+
+
+.type img {
+    width: 80%;
+    padding-left: 150px;
+}
+
+.type a {
+    text-decoration: none;
+    /* padding-left: 70px; */
+}
+
+.grocery {
+    padding-left: 185px;
+}
+
+.mobile {
+    padding-left: 70px;
+}
+
+.fashion {
+    padding-left: 60px;
+}
+
+.electronics {
+    padding-left: 60px;
+}
+
+.furniture {
+    padding-left: 50px;
+}
+
+.appliance {
+    padding-left: 35px;
+}
+
+.travel {
+    padding-left: 60px;
+}
+
+.toy {
+    padding-left: 60px;
+}
+
+.twowheeler {
+    padding-left: 50px;
+}
+
+.head {
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.btmobile {
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    padding-top: 30px;
+    height: 335px;
+    background-color: #ffffff;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+.samsung img {
+    width: 75%;
+}
+
+.samsung img:hover {
+    width: 73%;
+}
+
+.ipone img {
+    width: 73%;
+}
+
+.ipone img:hover {
+    width: 71%;
+}
+
+.iq img {
+    width: 80%;
+}
+
+.iq img:hover {
+    width: 78%;
+}
+
+.honor img {
+    width: 73%;
+}
+
+.honor img:hover {
+    width: 71%;
+}
+
+.promax img {
+    width: 77%;
+}
+
+.promax img:hover {
+    width: 75%;
+}
+
+.phone {
+    font-size: large;
+    font-weight: bold;
+}
+
+.specialoff {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.specialoff img {
+    width: 100%;
+}
+
+/* #bestelectronics{
+    /* background-color: #edeff0; */
+
+.elhead {
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.btelectronics {
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    padding-top: 30px;
+    height: 270px;
+    background-color: #ffffff;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+.laptop img {
+    width: 100%;
+}
+
+.laptop img:hover {
+    width: 98%;
+}
+
+.camera img {
+    width: 68%;
+}
+
+.camera img:hover {
+    width: 66%;
+}
+
+.sdcard img {
+    width: 80%;
+}
+
+.sdcard img:hover {
+    width: 78%;
+}
+
+.trimmer img {
+    width: 34%;
+}
+
+.trimmer img:hover {
+    width: 32%;
+}
+
+.ironbox img {
+    width: 89%;
+}
+
+.ironbox img:hover {
+    width: 87%;
+}
+
+.tophead {
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.tpdeals {
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    padding-top: 30px;
+    height: 270px;
+    background-color: #ffffff;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 14.29% 14.29% 14.29% 14.29% 14.29% 14.29% 14.29%;
+    text-align: center;
+}
+.ipad img{
+    width: 70%;
+}
+.ipad img:hover{
+    width: 68%;
+}
+.cam img{
+    width: 96%;
+}
+.cam img:hover{
+    width: 94%;
+}
+.amaze img{
+    width: 61%;
+}
+.amaze img:hover{
+    width: 59%;
+}
+.camm img{
+    width: 100%;
+}
+.camm img:hover{
+    width: 98%;
+}
+.lahenga img{
+    width: 71%;
+}
+.lahenga img:hover{
+    width: 69%;
+}
+.kurta img{
+    width: 62%;
+}
+.kurta img:hover{
+    width: 60%;
+}
+.saree img{
+    width: 63%;
+}
+.saree img:hover{
+    width: 61%;
+}
+
+.price{
+    font-weight: bolder;
+}
+
+#topstories{
+    padding-top: 40px;
+}
+.tpstories{
+    color: #827f7f;
+    background-color: #ededf1;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+#foot{
+    padding-top: 25px;
+}
+.footer{
+    background-color: #1a1b1c;
+    height: 75px;
+}
+.navbara{
+    padding-top: 5px;
+    padding-left: 40px;
+}
+.listitem1{
+    display: inline;
+    margin-left: 40px;
+}
+
+.link1 {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.link1:hover {
+    color: #9d9fa3;
+}
+.link2{
+    padding-left: 100px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.list1 img{
+    padding-left: 235px;
+}
